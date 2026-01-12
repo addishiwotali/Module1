@@ -12,5 +12,16 @@ class Program
 
         Console.WriteLine(AreaOfACircle(5));
 
+        static double AreaOfTriangle(double baseLength, double height)
+        {
+            var bH =  baseLength * height;
+            var area = bH / 2;
+            return area;
+        }
+        Console.WriteLine(AreaOfTriangle(10,5));
+        
+        
     }
+    
 }
+
