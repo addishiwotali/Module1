@@ -29,7 +29,16 @@ class Program
             return area;
         }
         Console.WriteLine(AreaOfRectangle(10,5));
-    }
+
+
+
+        static double AreaOfSquare(double side)
+        {
+            var area = side * side;
+            return area;
+        }
+        Console.WriteLine(AreaOfSquare(10));
+    } 
     
 }
 
