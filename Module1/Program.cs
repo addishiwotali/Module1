@@ -19,8 +19,16 @@ class Program
             return area;
         }
         Console.WriteLine(AreaOfTriangle(10,5));
-        
-        
+
+
+
+
+        static double AreaOfRectangle(double width, double height)
+        {
+            var area = width * height;
+            return area;
+        }
+        Console.WriteLine(AreaOfRectangle(10,5));
     }
     
 }
