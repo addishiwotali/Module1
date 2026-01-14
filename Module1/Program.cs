@@ -48,9 +48,9 @@ class Program
         double width = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine($"Enter height of an rectangle:");
         
-        double lenght = Convert.ToDouble(Console.ReadLine());
+        double length = Convert.ToDouble(Console.ReadLine());
         
-        Console.WriteLine($"Area of rectangle is {AreaOfRectangle(width,height)}");
+        Console.WriteLine($"Area of rectangle is {AreaOfRectangle(width,length)}");
         
         
         Console.WriteLine("--------------------------");
